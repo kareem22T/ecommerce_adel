@@ -59,7 +59,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #292b2c;
+    color: #0e1a28;
     font-family: 'Roboto';
 }
 
@@ -70,7 +70,7 @@ p {
 }
 
 a {
-    color: #292b2c;
+    color: #fff;
     text-decoration: none;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -1288,6 +1288,7 @@ button:focus:not(:focus-visible) {
 .logo_light,
 .logo_dark {
     display: none;
+    max-width: 130px;
 }
 
 .dark_skin .logo_dark,
@@ -1315,7 +1316,7 @@ button:focus:not(:focus-visible) {
 }
 
 .header_wrap:not([class*="bg_"]):not([class*="bg-"]) {
-    background-color: #fff;
+    background-color: #0e1a28;
 }
 
 .header_wrap:not([class*="bg_"]):not([class*="bg-"]).transparent_header {
@@ -2138,7 +2139,7 @@ button:focus:not(:focus-visible) {
 
 .contact_detail>li,
 .header_list>li {
-    color: #333;
+    color: #fff;
     font-size: 14px;
     vertical-align: middle;
     display: inline-block;
@@ -2830,7 +2831,7 @@ input.text {
 .ddcommon .ddlabel {
     text-transform: capitalize;
     font-size: 14px;
-    color: #333;
+    color: #fff;
     white-space: nowrap;
     vertical-align: middle;
 }
@@ -6273,6 +6274,7 @@ footer .widget_title {
     padding: 0;
     display: block;
     text-align: center;
+    color: #131d24;
 }
 
 .pr_action_btn li a i {
@@ -7815,6 +7817,7 @@ footer .widget_recent_post .post_img img {
 
 .nav-tabs li.nav-item a {
     background-color: transparent;
+    color: #0e1a28;
     border: 0;
     font-weight: 500;
     text-align: center;
@@ -8728,7 +8731,7 @@ blockquote p:last-child {
 }
 
 .nav-link {
-    color: #292b2c;
+    color: #fff;
 }
 
 .nav-link:focus,
