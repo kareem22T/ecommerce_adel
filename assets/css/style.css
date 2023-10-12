@@ -70,7 +70,7 @@ p {
 }
 
 a {
-    color: #fff;
+    color: #5e6165;
     text-decoration: none;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -2144,6 +2144,10 @@ button:focus:not(:focus-visible) {
     vertical-align: middle;
     display: inline-block;
     padding: 2px 15px 2px 0;
+}
+.contact_detail>li a,
+.header_list>li a{
+    color: #fff !important;
 }
 
 .header_list>li i {
@@ -5926,8 +5930,10 @@ footer .widget_title {
     line-height: 45px;
     border: 1px solid #CED4DA;
     border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 .shorting_icon .ti-layout-list-thumb {
     font-size: 24px;
     line-height: 45px;
@@ -6685,7 +6691,6 @@ body>.zoomContainer {
     overflow: hidden;
     position: relative;
 }
-
 .product_img_zoom {
     position: absolute;
     top: 20px;
@@ -6698,8 +6703,10 @@ body>.zoomContainer {
     line-height: 40px;
     text-align: center;
     border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 .product_share {
     margin-top: 15px;
 }
